@@ -1,0 +1,29 @@
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">id</th>
+            <th scope="col">Name</th>
+            <th scope="col">price</th>
+            <th scope="col">status</th>
+            <th scope="col">action</th>
+
+
+
+
+        </tr>
+    </thead>
+    <tbody *ngFor='let product of products'>
+        <tr>
+            <th scope="row">{{product.id}}</th>
+            <th>{{product.name}}</th>
+            <th>{{product.price}}</th>
+            <th>{{product.status}}</th>
+
+            <th>
+                <button type="button" class="btn btn-outline-primary" (click)='DeleteFlag()'>Update</button>
+                <button type="button" class="btn btn-outline-primary" (click)='Delete(product.id)'>Delete</button>
+            </th>
+        </tr>
+
+    </tbody>
+</table>

@@ -1,0 +1,43 @@
+<div class="row">
+    <!-- <app-product class="col-lg-4 col-md-6 mb-4"></app-product>
+    <app-product class="col-lg-4 col-md-6 mb-4"></app-product>
+    <app-product class="col-lg-4 col-md-6 mb-4"></app-product>
+    <app-product class="col-lg-4 col-md-6 mb-4"></app-product>
+    <app-product class="col-lg-4 col-md-6 mb-4"></app-product>
+    <app-product class="col-lg-4 col-md-6 mb-4"></app-product> -->
+
+    <div class="col-lg-4 col-md-6 mb-4" *ngFor='let product of products'>
+        <div class="card h-100">
+            <a href="#"><img class="card-img-top" src={{product.img}} alt=""></a>
+            <div class="card-body">
+                <h4 class="card-title">
+                    <a href="#">{{product.name}}</a>
+                </h4>
+                <h5>{{product.price}}</h5>
+                <p class="card-text">You want to buy?</p>
+                <!-- <p *ngIf="selected">{{selected.detail}}</p>
+                <p *ngIf="selected">{{selected.Production}}</p>
+                <p *ngIf="selected">{{selected.class}}</p>
+                <p *ngIf="selected">{{selected.style}}</p> -->
+
+            </div>
+            <div class="card-footer">
+
+
+
+
+                <button type="button" class="btn btn-primary btn-sm" (click)='showDetail(product)'>Detail</button>
+                <button type="button" class="btn btn-primary btn-sm" (click)='Delete(product.id)'>Delete</button>
+                <br>
+
+
+                <small class="text-muted">&#9733; &#9733; &#9733; &#9733; &#9734;</small>
+            </div>
+        </div>
+
+
+
+    </div>
+
+</div>
+<p *ngIf="selected">{{selected.Manufacturer}}</p>

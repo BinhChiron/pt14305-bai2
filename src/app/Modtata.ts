@@ -1,0 +1,147 @@
+import {product} from './product';
+export const data: product[] =[
+    {
+        id: 1,
+        name: 'Bugati Chiron1',
+        price: 10000000,
+        status: true,
+        detail: 'Siêu xe rất nhiều tiền',
+        Manufacturer: 'Bugati',
+        Production: 2016,
+        class: 'sport car',
+        style: 'Hai cửa',
+        img: 'https://assets.bugatti.com/fileadmin/_processed_/sei/p10/se-image-c7d49050ed8b1e9c104ad6fc1d2e16e5.webp'  
+    },
+    {
+        id: 2,
+        name: 'Volvo xc90',
+        price: 10000000,
+        status: true,
+        detail: 'Siêu xe rất nhiều tiền',
+        Manufacturer: 'Volvo',
+        Production: 2019,
+        class: 'MPV car',
+        style: 'Bốn cửa',
+        img: 'https://i-vnexpress.vnecdn.net/2020/01/02/Volvo-XC90-VnE-1-1577940004_680x0.jpg'  
+    },
+    {
+        id: 3,
+        name: 'Volvo xc60',
+        price: 10000000,
+        status: true,
+        detail: 'Siêu xe rất nhiều tiền',
+        Manufacturer: 'Volvo',
+        Production: 2019,
+        class: 'SUV car',
+        style: 'Bốn cửa',
+        img: 'https://volvohanoi.vn/wp-content/uploads/2017/12/5-599x400.jpg'  
+    },
+    {
+        id: 4,
+        name: 'Bugati LA ',
+        price: 10000000,
+        status: true,
+        detail: 'Siêu xe rất nhiều tiền',
+        Manufacturer: 'Bugati',
+        Production: 2020,
+        class: 'sport car',
+        style: 'Hai cửa',
+        img: 'https://assets.bugatti.com/fileadmin/_processed_/sei/p10/se-image-26955bc1dd33cf3bc6c454f42a08e3c6.webp'  
+    },
+    {
+        id: 5,
+        name: 'Mercedes GLC 300',
+        price: 10000000,
+        status: true,
+        detail: 'Siêu xe rất nhiều tiền',
+        Manufacturer: 'Mercedes ',
+        Production: 2019,
+        class: 'SUV car',
+        style: 'Bốn cửa',
+        img: 'https://www.mercedes-benz.com.vn/vi/passengercars/mercedes-benz-cars/models/glc/suv-x253/explore/design-teaser/_jcr_content/par/teaserbox/teaserelement1/teaserelement/image.MQ6.6.20190620091655.jpeg'  
+    },
+    {
+        id: 6,
+        name: ' Mercedes-Maybach',
+        price: 10000000,
+        status: true,
+        detail: 'Siêu xe rất nhiều tiền',
+        Manufacturer: ' Mercedes',
+        Production: 2019,
+        class: 'super car',
+        style: 'Bốn cửa',
+        img: 'https://www.mercedes-benz.com.vn/vi/passengercars/mercedes-benz-cars/models/s-class/mercedes-maybach-x222/explore/highlights/_jcr_content/contentgallerycontainer/par/contentgallery/par/contentgallerytile_1327929667/image.MQ6.3.20190617135419.jpeg'  
+    },
+    {
+        id: 7,
+        name: 'minivan V-Class',
+        price: 10000000,
+        status: true,
+        detail: 'Siêu xe rất nhiều tiền',
+        Manufacturer: 'Mercedes',
+        Production: 2019,
+        class: 'MPV car',
+        style: 'Bốn cửa',
+        img: 'https://www.mercedes-benz.com.vn/vi/passengercars/mercedes-benz-cars/models/v-class/v-class-447/explore/design/_jcr_content/par/teaserbox_cd0a/teaserelement1/teaserelement_2ea4/image.MQ6.6.20191219121628.jpeg'  
+    },
+    {
+        id: 8,
+        name: 'mclaren 720s',
+        price: 10000000,
+        status: true,
+        detail: 'Siêu xe rất nhiều tiền',
+        Manufacturer: 'mclaren',
+        Production: 2016,
+        class: 'sport car',
+        style: 'Hai cửa',
+        img: 'https://cars.mclaren.com/content/dam/mclaren-automotive/models/720s/720s/overview/optimised-/720s-coupe-rear-banner%20-%201920x1050%202.jpg'  
+    },
+    {
+        id: 9,
+        name: 'Koenigsegg',
+        price: 10000000,
+        status: true,
+        detail: 'Siêu xe rất nhiều tiền',
+        Manufacturer: 'Koenigsegg',
+        Production: 2016,
+        class: 'sport car',
+        style: 'Hai cửa',
+        img: 'https://www.koenigsegg.com/wp-content/uploads/2019/09/Sonny-X-CVK-w-1024x688.jpg'  
+    },
+    {
+        id: 10,
+        name: 'Bugati Chiron',
+        price: 10000000,
+        status: true,
+        detail: 'Siêu xe rất nhiều tiền',
+        Manufacturer: 'Bugati',
+        Production: 2016,
+        class: 'sport car',
+        style: 'Hai cửa',
+        img: 'https://assets.bugatti.com/fileadmin/_processed_/sei/p10/se-image-c7d49050ed8b1e9c104ad6fc1d2e16e5.webp'  
+    },
+    {
+        id: 11,
+        name: 'Bugati veron',
+        price: 10000000,
+        status: true,
+        detail: 'Siêu xe rất nhiều tiền',
+        Manufacturer: 'Bugati',
+        Production: 2016,
+        class: 'sport car',
+        style: 'Hai cửa',
+        img: 'https://assets.bugatti.com/fileadmin/_processed_/sei/p10/se-image-26ad4b4e569b61509d67b2e1b054c882.webp'  
+    },
+    {
+        id: 12,
+        name: 'Bugati veron ver 2',
+        price: 10000000,
+        status: true,
+        detail: 'Siêu xe rất nhiều tiền',
+        Manufacturer: 'Bugati',
+        Production: 2016,
+        class: 'sport car',
+        style: 'Hai cửa',
+        img: 'https://assets.bugatti.com/fileadmin/_processed_/sei/p10/se-image-f951727f2c8c1e98432d62516b4c06ba.webp'  
+    }
+]
