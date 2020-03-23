@@ -12,7 +12,7 @@ import { ProductDetailComponent } from './product-detail/product-detail.componen
 import { ProductAddComponent } from './product-add/product-add.component';
 import { ProductManagerComponent } from './product-manager/product-manager.component';
 import { AboutComponent } from './about/about.component';
-import { ServiceComponent } from './service/service.component';
+// import { ServiceComponent } from './service/service.component';
 import { ContactComponent } from './contact/contact.component';
 import { ProductUpdateComponent } from './product-update/product-update.component';
 
@@ -27,7 +27,7 @@ import { ProductUpdateComponent } from './product-update/product-update.componen
     ProductAddComponent,
     ProductManagerComponent,
     AboutComponent,
-    ServiceComponent,
+    // ServiceComponent,
     ContactComponent,
     ProductUpdateComponent
   ],
