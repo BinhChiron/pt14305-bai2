@@ -14,10 +14,14 @@ import { ProductAddComponent } from './product-add/product-add.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
 import { ProductManagerComponent } from './product-manager/product-manager.component';
 import { ProductUpdateComponent } from './product-update/product-update.component';
+import { RouterModule, Routes } from '@angular/router';
+import { ProdustService } from './produst.service';
+import { ServiceComponent } from './service/service.component';
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent, SlideComponent, ProductComponent, ProductListComponent, CategoryComponent, TableComponent, AboutComponent, ContactComponent, ProductAddComponent, ProductDetailComponent, ProductManagerComponent, ProductUpdateComponent ],
-  bootstrap:    [ AppComponent ]
+  imports:      [ BrowserModule, FormsModule,  RouterModule ],
+  declarations: [ AppComponent, HelloComponent, SlideComponent, ProductComponent, ProductListComponent, CategoryComponent, AboutComponent, ContactComponent, ProductAddComponent, ProductDetailComponent, ProductManagerComponent, ProductUpdateComponent, ServiceComponent ],
+  bootstrap:    [ AppComponent ],
+  providers: [ProdustService]
 })
 export class AppModule { }
