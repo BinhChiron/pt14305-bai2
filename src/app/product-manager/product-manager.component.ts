@@ -6,7 +6,7 @@ import {ProdustService} from '../produst.service';
 @Component({
   selector: 'app-product-manager',
   templateUrl: './product-manager.component.html',
-  styleUrls: ['./product-manager.component.scss']
+  styleUrls: ['./product-manager.component.css']
 })
 export class ProductManagerComponent implements OnInit {
 
