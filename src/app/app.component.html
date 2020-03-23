@@ -9,19 +9,19 @@
       </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
+                <li class="nav-item ">
                     <a class="nav-link" href="#">Home
               <span class="sr-only">(current)</span>
             </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" [routerLink]="['about']">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Services</a>
+                    <a class="nav-link" [routerLink]="['service']">Services</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" [routerLink]="['Contact']" routerLinkActive='active'>Contact</a>
                 </li>
             </ul>
         </div>
@@ -42,12 +42,13 @@
 
         <div class="col-lg-9">
             <br>
-
+            <!-- <app-product-add></app-product-add> -->
             <app-slide></app-slide>
+            <router-outlet></router-outlet>
+
+            <!-- <app-product-list></app-product-list> -->
 
 
-            <app-product-list></app-product-list>
-            <app-table></app-table>
             <!-- /.row -->
 
         </div>

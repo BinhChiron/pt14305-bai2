@@ -1,3 +1,4 @@
+<router-outlet></router-outlet>
 <table class="table">
     <thead class="thead-dark">
         <tr>
@@ -20,8 +21,10 @@
             <th>{{product.status}}</th>
 
             <th>
-                <button type="button" class="btn btn-outline-primary" (click)='DeleteFlag()'>Update</button>
+                <button type="button" class="btn btn-outline-primary" routerLink='Update'>Update</button>
                 <button type="button" class="btn btn-outline-primary" (click)='Delete(product.id)'>Delete</button>
+                <button type="button" class="btn btn-outline-primary" routerLink='Add'>Add</button>
+                <button type="button" class="btn btn-outline-primary" routerLink="/Product/{{product.id}}">Detail</button>
             </th>
         </tr>
 
