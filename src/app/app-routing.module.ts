@@ -7,6 +7,7 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
 import { ProductAddComponent } from './product-add/product-add.component';
+import { ProductUpdateComponent } from './product-update/product-update.component';
 
 
 const routes: Routes = [
@@ -14,12 +15,12 @@ const routes: Routes = [
   { path: 'Home', component: ProductListComponent },
   { path: 'Manager', component: ProductManagerComponent },
   { path: 'about', component: AboutComponent },
-  { path: 'service', component: ServiceComponent },
+  // { path: 'service', component: ServiceComponent },
   { path: 'Contact', component: ContactComponent },
   { path: 'List', component: ProductListComponent },
   { path: 'Product/:id', component: ProductDetailComponent },
   { path: 'Manager/Add', component: ProductAddComponent },
-  { path: 'Manager/Update/:id', component: ProductAddComponent },
+  { path: 'Manager/Update/:id', component: ProductUpdateComponent },
 
 
   
