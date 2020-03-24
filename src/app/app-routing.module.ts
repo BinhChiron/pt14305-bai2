@@ -19,7 +19,7 @@ const routes: Routes = [
   { path: 'List', component: ProductListComponent },
   { path: 'Product/:id', component: ProductDetailComponent },
   { path: 'Manager/Add', component: ProductAddComponent },
-  { path: 'Manager/Update', component: ProductAddComponent },
+  { path: 'Manager/Update/:id', component: ProductAddComponent },
 
 
   
