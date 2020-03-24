@@ -2,38 +2,38 @@
 <form>
     <div class="form-group">
         <label for="">Name</label>
-        <input type="text" class="form-control" aria-describedby="emailHelp" name="name">
+        <input type="text" class="form-control" aria-describedby="emailHelp" name="name" [(ngModel)]="product.name">
     </div>
     <div class="form-group">
         <label for="">Price</label>
-        <input type="text" class="form-control" aria-describedby="emailHelp" name="price">
+        <input type="text" class="form-control" aria-describedby="emailHelp" name="price" [(ngModel)]="product.price">
 
     </div>
     <div class="form-group">
         <label for="">Manufacturer</label>
-        <input type="text" class="form-control" aria-describedby="emailHelp" name="Manufacturer">
+        <input type="text" class="form-control" aria-describedby="emailHelp" name="Manufacturer" [(ngModel)]="product.Manufacturer">
 
     </div>
     <div class="form-group">
         <label for="">Production</label>
-        <input type="text" class="form-control" aria-describedby="emailHelp" name="Production">
+        <input type="text" class="form-control" aria-describedby="emailHelp" name="Production" [(ngModel)]="product.Production">
 
     </div>
     <div class="form-group">
         <label for="">class</label>
-        <input type="text" class="form-control" aria-describedby="emailHelp" name="class">
+        <input type="text" class="form-control" aria-describedby="emailHelp" name="class" [(ngModel)]="product.class">
 
     </div>
     <div class="form-group">
         <label for="">Style</label>
-        <input type="text" class="form-control" aria-describedby="emailHelp" name="style">
+        <input type="text" class="form-control" aria-describedby="emailHelp" name="style" [(ngModel)]="product.style">
 
     </div>
     <div class="form-group">
         <label for="exampleFormControlFile1">file input</label>
-        <input type="file" class="form-control-file" id="exampleFormControlFile1" name="img">
+        <input type="file" class="form-control-file" id="exampleFormControlFile1" name="img" [(ngModel)]="product.img">
     </div>
 
 
-    <button class="btn btn-primary" routerLink='Manager'>Add Product</button>
+    <button class="btn btn-primary" (click)="submitForm()">Add Product</button>
 </form>

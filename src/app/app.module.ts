@@ -15,6 +15,7 @@ import { AboutComponent } from './about/about.component';
 // import { ServiceComponent } from './service/service.component';
 import { ContactComponent } from './contact/contact.component';
 import { ProductUpdateComponent } from './product-update/product-update.component';
+import { ServiceComponent } from './service/service.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { ProductUpdateComponent } from './product-update/product-update.componen
     AboutComponent,
     // ServiceComponent,
     ContactComponent,
-    ProductUpdateComponent
+    ProductUpdateComponent,
+    ServiceComponent
   ],
   imports: [
     BrowserModule,
